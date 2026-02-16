@@ -15,91 +15,107 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\Main.cpp">
+    <ClCompile Include="Sources\Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\Game\Game.cpp">
+    <ClCompile Include="Sources\Game\Game.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\States\MenuState.cpp">
+    <ClCompile Include="Sources\States\MenuState.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\States\SplashScreenState.cpp">
+    <ClCompile Include="Sources\States\SplashScreenState.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\Game\Config.cpp">
+    <ClCompile Include="Sources\Game\Config.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\States\State.cpp">
+    <ClCompile Include="Sources\States\State.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\Game\GameContext.cpp">
+    <ClCompile Include="Sources\Game\GameContext.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\States\PlayState.cpp">
+    <ClCompile Include="Sources\States\PlayState.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\Entities\Field.cpp">
+    <ClCompile Include="Sources\Entities\Field.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\Entities\Snake.cpp">
+    <ClCompile Include="Sources\Entities\Snake.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\Entities\Food.cpp">
+    <ClCompile Include="Sources\Entities\Food.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\States\GameOverState.cpp">
+    <ClCompile Include="Sources\States\GameOverState.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\States\SettingsState.cpp">
+    <ClCompile Include="Sources\States\SettingsState.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\States\WinState.cpp">
+    <ClCompile Include="Sources\States\WinState.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\Game\Game.h">
+    <ClInclude Include="Sources\Game\Game.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\States\State.h">
+    <ClInclude Include="Sources\States\State.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\States\MenuState.h">
+    <ClInclude Include="Sources\States\MenuState.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\States\SplashScreenState.h">
+    <ClInclude Include="Sources\States\SplashScreenState.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\Game\Config.h">
+    <ClInclude Include="Sources\Game\Config.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\Game\GameContext.h">
+    <ClInclude Include="Sources\Game\GameContext.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\States\PlayState.h">
+    <ClInclude Include="Sources\States\PlayState.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\Entities\Field.h">
+    <ClInclude Include="Sources\Entities\Field.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\Entities\Snake.h">
+    <ClInclude Include="Sources\Entities\Snake.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\Entities\Food.h">
+    <ClInclude Include="Sources\Entities\Food.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\States\GameOverState.h">
+    <ClInclude Include="Sources\States\GameOverState.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\States\SettingsState.h">
+    <ClInclude Include="Sources\States\SettingsState.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\States\WinState.h">
+    <ClInclude Include="Sources\States\WinState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\resource.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="config.ini" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="assets\textures\snake.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\textures\snake.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resources\SuzzieSnake.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
   </ItemGroup>
 </Project>

@@ -19,38 +19,46 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\States\SettingsState.cpp" />
-    <ClCompile Include="src\States\GameOverState.cpp" />
-    <ClCompile Include="src\Entities\Food.cpp" />
-    <ClCompile Include="src\Entities\Snake.cpp" />
-    <ClCompile Include="src\Entities\Field.cpp" />
-    <ClCompile Include="src\States\PlayState.cpp" />
-    <ClCompile Include="src\Game\Config.cpp" />
-    <ClCompile Include="src\Game\GameContext.cpp" />
-    <ClCompile Include="src\States\SplashScreenState.cpp" />
-    <ClCompile Include="src\States\MenuState.cpp" />
-    <ClCompile Include="src\Game\Game.cpp" />
-    <ClCompile Include="src\Main.cpp" />
-    <ClCompile Include="src\States\State.cpp" />
-    <ClCompile Include="src\States\WinState.cpp" />
+    <ClCompile Include="Sources\States\SettingsState.cpp" />
+    <ClCompile Include="Sources\States\GameOverState.cpp" />
+    <ClCompile Include="Sources\Entities\Food.cpp" />
+    <ClCompile Include="Sources\Entities\Snake.cpp" />
+    <ClCompile Include="Sources\Entities\Field.cpp" />
+    <ClCompile Include="Sources\States\PlayState.cpp" />
+    <ClCompile Include="Sources\Game\Config.cpp" />
+    <ClCompile Include="Sources\Game\GameContext.cpp" />
+    <ClCompile Include="Sources\States\SplashScreenState.cpp" />
+    <ClCompile Include="Sources\States\MenuState.cpp" />
+    <ClCompile Include="Sources\Game\Game.cpp" />
+    <ClCompile Include="Sources\Main.cpp" />
+    <ClCompile Include="Sources\States\State.cpp" />
+    <ClCompile Include="Sources\States\WinState.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\States\SettingsState.h" />
-    <ClInclude Include="src\States\GameOverState.h" />
-    <ClInclude Include="src\Entities\Food.h" />
-    <ClInclude Include="src\Entities\Snake.h" />
-    <ClInclude Include="src\Entities\Field.h" />
-    <ClInclude Include="src\States\PlayState.h" />
-    <ClInclude Include="src\Game\Config.h" />
-    <ClInclude Include="src\Game\GameContext.h" />
-    <ClInclude Include="src\States\SplashScreenState.h" />
-    <ClInclude Include="src\States\MenuState.h" />
-    <ClInclude Include="src\Game\Game.h" />
-    <ClInclude Include="src\States\State.h" />
-    <ClInclude Include="src\States\WinState.h" />
+    <ClInclude Include="Resources\resource.h" />
+    <ClInclude Include="Sources\States\SettingsState.h" />
+    <ClInclude Include="Sources\States\GameOverState.h" />
+    <ClInclude Include="Sources\Entities\Food.h" />
+    <ClInclude Include="Sources\Entities\Snake.h" />
+    <ClInclude Include="Sources\Entities\Field.h" />
+    <ClInclude Include="Sources\States\PlayState.h" />
+    <ClInclude Include="Sources\Game\Config.h" />
+    <ClInclude Include="Sources\Game\GameContext.h" />
+    <ClInclude Include="Sources\States\SplashScreenState.h" />
+    <ClInclude Include="Sources\States\MenuState.h" />
+    <ClInclude Include="Sources\Game\Game.h" />
+    <ClInclude Include="Sources\States\State.h" />
+    <ClInclude Include="Sources\States\WinState.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="config.ini" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="assets\textures\snake.ico" />
+    <Image Include="assets\textures\snake.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resources\SuzzieSnake.rc" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

@@ -51,7 +51,7 @@ void Game::ApplyConfig()
         );
         if (windowIcon.getSize().x > 0)
         {
-            window.setIcon(windowIcon.getSize(), windowIcon.getPixelsPtr());
+            window.setIcon(windowIcon);
         }
     }
     else if (needsResize)
